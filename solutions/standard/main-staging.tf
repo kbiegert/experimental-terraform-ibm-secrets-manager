@@ -4,7 +4,7 @@ resource "time_sleep" "wait_11_seconds" {
 }
 
 output "resource_group_name" {
-    value       = "resource_group_name"
+    value       = var.resource_group_name
 }
 
 output "resource_group_id" {
