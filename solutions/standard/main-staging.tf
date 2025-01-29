@@ -12,7 +12,8 @@ output "resource_group_id" {
 }
 
 output "secrets_manager_guid" {
-    value       = "secrets_manager_guid"
+    description = "this is a fake value"
+    value       = "12345678-1234-1234-1234-123456789abc"
 }
 
 output "secrets_manager_id" {
@@ -28,5 +29,5 @@ output "secrets_manager_crn" {
 }
 
 output "secrets_manager_region" {
-    value       = "secrets_manager_region"
+    value       = "us-south"
 }

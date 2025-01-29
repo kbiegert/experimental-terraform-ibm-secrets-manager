@@ -299,8 +299,7 @@
               "input_mapping": [
                 {
                   "dependency_output": "kms_instance_crn",
-                  "version_input": "existing_kms_instance_crn",
-                  "reference_version": true
+                  "version_input": "existing_kms_instance_crn"
                 }
               ]
             },
