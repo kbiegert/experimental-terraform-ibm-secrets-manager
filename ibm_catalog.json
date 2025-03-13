@@ -58,7 +58,7 @@
               }
             ]
           },
-"configuration": [
+          "configuration": [
             {
               "key": "ibmcloud_api_key",
               "required": true
@@ -154,6 +154,7 @@
             {
               "key": "secrets_manager_tags",
               "custom_config": {
+                "type": "array",
                 "grouping": "deployment",
                 "original_grouping": "deployment",
                 "config_constraints": {
